@@ -66,6 +66,7 @@ public class HomePageTest {
 		String commerceMessage = productPage.commerceMessage.getText();
 		System.out.println("commerceMessage: "+commerceMessage);
 		Assert.assertTrue(productPage.commerceMessage.isDisplayed());
+		//
 	}
 
 	
